@@ -1,0 +1,29 @@
+fun main() {
+    var name = "Lynn"  // mutable 
+    val id = "0023"    // immutable
+    var age = 20 
+    println("Hello, $name!!!")       // string template
+    println("Welcome to my playground!")  
+    println("Your id is $id")
+    name = "Ki"
+    print("I am " +name)  // concatenation operator
+}
+
+
+
+// Condition
+fun main (){
+    val num1:Int = 10
+    val num2:Int = 0
+    
+    
+    
+    // condiition
+    if(num2==0){
+        println("Cannot divided by zero!")
+    }
+    else{
+        val ans = num1/num2
+        print("Result =$ans")
+    }
+}
