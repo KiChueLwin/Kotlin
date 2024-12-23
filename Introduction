@@ -27,3 +27,17 @@ fun main (){
         print("Result =$ans")
     }
 }
+
+
+fun main (){
+    val msg = "Welcome"
+    
+    if(msg=="Welcome")
+    {
+        println("True")
+    }
+    else
+    {
+        println("False")
+    }
+}
