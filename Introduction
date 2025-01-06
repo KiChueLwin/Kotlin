@@ -41,3 +41,89 @@ fun main (){
         println("False")
     }
 }
+
+fun main (){
+    
+    val num = 20
+    if (num > 0)
+    {
+        println("Positive number")
+    }
+    else
+    {
+        println("Negative number")
+    }
+}
+
+
+
+fun main (){
+    
+    val dayOfWeek = 3 
+    val result =  when (dayOfWeek){
+        1 -> "Monday"
+        2 -> "Tuesday"
+        3 -> "Tuesday"
+        4 -> "Thursday"
+        5 -> "Friday"
+        else -> "Weekend"
+    }
+    
+    print(result)
+}
+
+
+// expression
+fun main (){ 
+    
+    val num = 10
+    val result = if (num%2 == 0) "Even" else "Odd"
+    print(result)
+    
+}
+
+
+fun main (){
+    
+    val day = 3
+    val result = when(day){
+        in 1..5 -> "weekday"
+        in 6..7 -> "weekend"
+        else -> "Invalid day"
+    }
+    
+    print("$day is result.")
+}
+
+
+
+fun main (){
+    
+    val ans = "y"
+    
+    val result = if(ans.uppercase()=="Y") "Yes" else "No"
+    println(result)
+    
+    lateinit var text:String
+    println("Hello world.")
+    text = "This is my text."
+    println(text)
+    
+}
+
+fun display(msg:String,n:Int=1)
+{
+        for(j in 1..n)
+        {
+            println("($j) $msg")
+        }
+}
+    
+    
+ 
+fun main(){
+    display("Testing.", 3)
+    display("234231",7)
+    display("Good News")
+    display("Hello")
+}
