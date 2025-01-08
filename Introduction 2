@@ -1,0 +1,11 @@
+// Array size and checking array
+fun main(){
+    val cars = arrayOf("Volvo","BMW","Ford","Mazda")
+    println(cars.size)
+    
+    if("Volvo" in cars){
+        println("It exists!")
+    }else{
+        println("It does not exist!")
+    }
+}
