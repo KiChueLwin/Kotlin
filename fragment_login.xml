@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment"
+    android:orientation="vertical"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_foreground"
+
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Procced with your account!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:id="@+id/textLoginEmail"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+
+
+        />
+    <EditText
+        android:id="@+id/textLoginPwd"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+
+        />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:gravity="end"
+        android:text="Forget your password?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="#009688"
+        android:id="@+id/btngotoRegister"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:textColor="#E91E63"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Register?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
